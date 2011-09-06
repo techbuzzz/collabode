@@ -1,0 +1,5 @@
+C:\WhizCrafts\WhizCrafts.Collab.Solution\WhizCrafts.Collab.Repository\bin\Debug\WhizCrafts.Collab.Repository.dll
+C:\WhizCrafts\WhizCrafts.Collab.Solution\WhizCrafts.Collab.Repository\bin\Debug\WhizCrafts.Collab.Repository.pdb
+C:\WhizCrafts\WhizCrafts.Collab.Solution\WhizCrafts.Collab.Repository\obj\Debug\ResolveAssemblyReference.cache
+C:\WhizCrafts\WhizCrafts.Collab.Solution\WhizCrafts.Collab.Repository\obj\Debug\WhizCrafts.Collab.Repository.dll
+C:\WhizCrafts\WhizCrafts.Collab.Solution\WhizCrafts.Collab.Repository\obj\Debug\WhizCrafts.Collab.Repository.pdb

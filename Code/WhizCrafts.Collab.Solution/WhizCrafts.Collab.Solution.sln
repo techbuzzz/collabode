@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhizCrafts.Collab.WebParts", "WhizCrafts.Collab.WebParts\WhizCrafts.Collab.WebParts.csproj", "{EA25FAB1-1B8A-4C24-959B-4F4BDE80675C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Practices.SharePoint.Common", "Microsoft.Practices.SharePoint.Common\Microsoft.Practices.SharePoint.Common.csproj", "{0FAB4900-9FE2-4CE9-A047-CEEB28920F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhizCrafts.Collab.Repository", "WhizCrafts.Collab.Repository\WhizCrafts.Collab.Repository.csproj", "{4E966559-9EAD-40A2-AD0C-234B0FFA0FA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA25FAB1-1B8A-4C24-959B-4F4BDE80675C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA25FAB1-1B8A-4C24-959B-4F4BDE80675C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA25FAB1-1B8A-4C24-959B-4F4BDE80675C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EA25FAB1-1B8A-4C24-959B-4F4BDE80675C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA25FAB1-1B8A-4C24-959B-4F4BDE80675C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA25FAB1-1B8A-4C24-959B-4F4BDE80675C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0FAB4900-9FE2-4CE9-A047-CEEB28920F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAB4900-9FE2-4CE9-A047-CEEB28920F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAB4900-9FE2-4CE9-A047-CEEB28920F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAB4900-9FE2-4CE9-A047-CEEB28920F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E966559-9EAD-40A2-AD0C-234B0FFA0FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E966559-9EAD-40A2-AD0C-234B0FFA0FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E966559-9EAD-40A2-AD0C-234B0FFA0FA9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4E966559-9EAD-40A2-AD0C-234B0FFA0FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E966559-9EAD-40A2-AD0C-234B0FFA0FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E966559-9EAD-40A2-AD0C-234B0FFA0FA9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

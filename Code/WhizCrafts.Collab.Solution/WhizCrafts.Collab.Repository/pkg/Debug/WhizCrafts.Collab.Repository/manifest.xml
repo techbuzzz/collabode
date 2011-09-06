@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="54f2626f-3917-4ebc-b703-3ff78b37e835" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="WhizCrafts.Collab.Repository.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="WhizCrafts.Collab.Repository_Services\Feature.xml" />
+  </FeatureManifests>
+</Solution>

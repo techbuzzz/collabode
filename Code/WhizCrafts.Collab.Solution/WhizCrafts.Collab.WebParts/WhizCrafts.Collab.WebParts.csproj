@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA25FAB1-1B8A-4C24-959B-4F4BDE80675C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WhizCrafts.Collab.WebParts</RootNamespace>
+    <AssemblyName>WhizCrafts.Collab.WebParts</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Linq, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HelloWorld\HelloWorld.cs" />
+    <Compile Include="HelloWorld\HelloWorldUserControl.ascx.cs">
+      <DependentUpon>HelloWorldUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HelloWorld\HelloWorldUserControl.ascx.designer.cs">
+      <DependentUpon>HelloWorldUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IssuesList\IssuesList.cs" />
+    <Compile Include="IssuesList\IssuesListUserControl.ascx.cs">
+      <DependentUpon>IssuesListUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IssuesList\IssuesListUserControl.ascx.designer.cs">
+      <DependentUpon>IssuesListUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\WebParts\WebParts.feature">
+      <FeatureId>{a18a8d87-a76d-4fab-a1c1-bc83ea976792}</FeatureId>
+    </None>
+    <None Include="HelloWorld\HelloWorld.webpart" />
+    <None Include="HelloWorld\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{453ffea2-5557-4520-97b1-acc2fae8b227}</SharePointProjectItemId>
+    </None>
+    <None Include="IssuesList\IssuesList.webpart" />
+    <None Include="IssuesList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{80a3f6a5-b445-43e1-a8d9-133562855573}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{c071aeee-379a-4b6a-b3bf-c4ef183ed915}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Practices.SharePoint.Common\Microsoft.Practices.SharePoint.Common.csproj">
+      <Project>{0FAB4900-9FE2-4CE9-A047-CEEB28920F57}</Project>
+      <Name>Microsoft.Practices.SharePoint.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhizCrafts.Collab.Repository\WhizCrafts.Collab.Repository.csproj">
+      <Project>{4E966559-9EAD-40A2-AD0C-234B0FFA0FA9}</Project>
+      <Name>WhizCrafts.Collab.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\WebParts\WebParts.Template.xml">
+      <DependentUpon>WebParts.feature</DependentUpon>
+    </Content>
+    <Content Include="HelloWorld\Elements.xml" />
+    <Content Include="HelloWorld\HelloWorldUserControl.ascx" />
+    <Content Include="IssuesList\Elements.xml" />
+    <Content Include="IssuesList\IssuesListUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

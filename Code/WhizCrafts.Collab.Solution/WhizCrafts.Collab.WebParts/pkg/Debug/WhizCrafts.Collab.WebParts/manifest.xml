@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="c071aeee-379a-4b6a-b3bf-c4ef183ed915" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="WhizCrafts.Collab.WebParts.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="WhizCrafts.Collab.WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f886c8358468491" Namespace="WhizCrafts.Collab.WebParts.IssuesList" TypeName="*" />
+        <SafeControl Assembly="WhizCrafts.Collab.WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f886c8358468491" Namespace="WhizCrafts.Collab.WebParts.HelloWorld" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\WhizCrafts.Collab.WebParts\IssuesList\IssuesListUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\WhizCrafts.Collab.WebParts\HelloWorld\HelloWorldUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="WhizCrafts.Collab.WebParts_WebParts\Feature.xml" />
+  </FeatureManifests>
+</Solution>
