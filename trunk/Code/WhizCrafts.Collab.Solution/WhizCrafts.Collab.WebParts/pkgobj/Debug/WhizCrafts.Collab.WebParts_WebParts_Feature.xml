@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="WhizCrafts.Collab.WebParts.WebParts" Id="7a5b6323-6255-4740-b0ad-b0c22ee47982" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="IssuesList\Elements.xml" />
+    <ElementFile Location="IssuesList\IssuesList.webpart" />
+    <ElementManifest Location="HelloWorld\Elements.xml" />
+    <ElementFile Location="HelloWorld\HelloWorld.webpart" />
+  </ElementManifests>
+</Feature>

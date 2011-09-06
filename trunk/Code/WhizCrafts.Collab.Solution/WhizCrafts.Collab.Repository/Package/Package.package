@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="54f2626f-3917-4ebc-b703-3ff78b37e835" solutionId="54f2626f-3917-4ebc-b703-3ff78b37e835" resetWebServer="false" name="WhizCrafts.Collab.Repository" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="e4791e31-c926-470d-9b8e-037d00143e55" />
+  </features>
+</package>

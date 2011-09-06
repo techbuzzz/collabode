@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="WhizCrafts.Collab.Repository.Services" Id="5b9f9e21-fabb-4858-a7fc-f54ef03cd725" ReceiverAssembly="WhizCrafts.Collab.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=defcbe98322c1c63" ReceiverClass="WhizCrafts.Collab.Repository.Features.Services.ServicesEventReceiver" Scope="Farm"></Feature>
